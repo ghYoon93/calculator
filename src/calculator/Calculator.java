@@ -20,7 +20,7 @@ public class Calculator {
         }
     }
 
-    private static int calculate(String symbol, int first, int second) {
+    public static int calculate(String symbol, int first, int second) {
         String operator = "";
         int result = first;
         if ("+".equals(symbol)) {
